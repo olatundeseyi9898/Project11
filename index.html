@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <!-- google icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <img class="mb-4" src="images/logo.svg" alt="Desktop Image">
+    <section class="white-container">
+        <div class="text-area">
+            <form action="Bill">
+                <label class="form-label">Bill</label>
+                <div class="input-group">
+                    <i class="material-icons">attach_money</i>
+                    <input type="number" class="form-control" placeholder="0" dir="rtl" aria-label="Amount">
+                </div>
+            </form>
+            <label class="form-label">Select Tip %</label>
+            <div class="button-container">
+                <button>5%</button>
+                <button>10%</button>
+                <button>15%</button>
+                <button>25%</button>
+                <button>50%</button>
+                <input type="number" class="form-control" placeholder="Custom" aria-label="Amount">
+            </div>
+            <label class="form-label">Number of People</label>
+            <div class="input-group">
+                <i class="material-icons">person</i>
+                <input type="number" class="form-control right-aligned-input" placeholder="0" dir="rtl"
+                    aria-label="Amount">
+            </div>
+        </div>
+        <div class="math-area">
+            <div class="inner-math">
+                <div class="math-text">
+                    <div class="lockin">
+                        <h3>Tip Amount</h3>
+                        <p>/ person</p>
+                    </div>
+                    <h2>$0.00</h2>
+                </div>
+                <div class="math-text">
+                    <div class="lockin">
+                        <h3>Total</h3>
+                        <p>/ person</p>
+                    </div>
+                    <h2>$0.00</h2>
+                </div>
+                <button>RESET</button>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
